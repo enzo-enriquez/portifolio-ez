@@ -8,6 +8,9 @@ import ImgMapa from "../../imagens/natureza/MAPA MENTAL ELETROSTÁTICA - NATUREZ
 import ImgMapaVacina from "../../imagens/natureza/vacinas.png"
 import ImgGloss from "../../imagens/natureza/glossario.png"
 import Imgsite from "../../imagens/natureza/magnetico.png"
+import ImgPadlet1 from "../../imagens/natureza/padle.png"
+import ImgYT from "../../imagens/natureza/yutube.png"
+import ImgPassado from "../../imagens/natureza/passado.png"
 
 import "./Natureza.css";
 
@@ -84,6 +87,28 @@ function Natureza() {
               Ch="Competências e Habilidades Desenvolvidas:C2 - H6, H7 e H9 "
               Objetivo="compreender o campo magnético da Terra, os fenômenos das auroras austrais e boreais, e como esses temas estão relacionados ao eletromagnetismo estudado em sala de aula. O resultado será a criação de um site educativo com 6 páginas, com textos, imagens, vídeos e curiosidades científicas."
               LinkAtv="https://sites.google.com/estudante.sesisenai.org.br/site-magnetismo/v%C3%ADdeos-explicativos-e-curiosidades?authuser=0&pli=1"
+            />
+            <h1 style={{ margin: "20px 0", textAlign: "center" }}>3º Trimestre</h1>
+            <ContainerAtvFt
+              ImgAtv={ImgPassado}
+              TituloATv="Passado, Presente e Futuro"
+              Ch="Competências e Habilidades Desenvolvidas: C5 - H24, H25, H26, H27, H28 "
+              Objetivo="A atividade consistiu em escolher um equipamento do dia a dia que usa energia e explicar de forma simples como ele funciona e para que serve e sua evolução com o tempo."
+              LinkAtv="https://www.canva.com/design/DAGz45zyOT4/7gMuKHHqicLr2CMXBQd5ig/view?utm_content=DAGz45zyOT4&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h7eba9b03b3"
+            />
+            <ContainerAtvFt
+              ImgAtv={ImgPadlet1}
+              TituloATv="Controle de ph e condutividade"
+              Ch="Competências e Habilidades Desenvolvidas: C5 - H24, H25, H26, H27, H28 "
+              Objetivo="A atividade consistiu em uma pesquisa em grupo sobre métodos de purificação utilizados na indústria. Cada grupo estudou um método específico, identificando seu princípio de funcionamento, equipamentos utilizados e principais aplicações, especialmente na extração de óleos essenciais."
+              LinkAtv="https://padlet.com/romuelsilva/trabalhos-3a-x9g8c2ybggrprlju?frame_id=page%3AAYqftY9LL3WFETgVRjzxJ"
+            />
+            <ContainerAtvFt
+              ImgAtv={ImgYT}
+              TituloATv="Destilação por Arraste a Vapor"
+              Ch="Competências e Habilidades Desenvolvidas: C5 - H24, H25, H26, H27, H28 "
+              Objetivo="A atividade consistiu na produção de um vídeo de 2 a 3 minutos explicando o processo de destilação por arraste a vapor utilizando plantas aromáticas como alecrim, lavanda e manjericão. No vídeo, foi necessário apresentar as características dessas plantas, mostrar como ocorre a extração dos óleos essenciais e destacar suas aplicações em áreas como cosméticos, terapias e produtos de limpeza."
+              LinkAtv="https://www.youtube.com/watch?v=igfmLOran00"
             />
         </Row>
     </Container>

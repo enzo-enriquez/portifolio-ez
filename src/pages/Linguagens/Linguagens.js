@@ -114,7 +114,29 @@ function Linguagens() {
               LinkAtv="https://docs.google.com/document/d/1c-mqtY50GtrQ_fhwcsYjKP0-a2dj-r-f1y05LRpBZ0k/edit?tab=t.0"
             />
         </Row>
-
+        <h1 style={{ margin: "20px 0", textAlign: "center" }}>2º Trimestre</h1>
+                <Row>
+            <ContainerAtvFt
+              ImgAtv={ImgMatue}
+              TituloATv="Redação Enem"
+              Ch="Competências e Habilidades Desenvolvidas: H6 - H8 "
+              Objetivo="Objetivo:A atividade consistiu em produzir uma redação sobre o tema “Desafios para combater o racismo ambiental no Brasil”, como preparação para o ENEM. O objetivo foi desenvolver argumentação crítica sobre as desigualdades ambientais que afetam principalmente comunidades vulneráveis, analisando causas, consequências e possíveis soluções. "
+            />
+        </Row>
+            <ContainerAtvFt
+              ImgAtv={ImgMatue}
+              TituloATv="Reel Literário: Primeiro de abril: narrativas da cadeia"
+              Ch="Competências e Habilidades Desenvolvidas: H4 - H16 - H15 "
+              Objetivo="Objetivo:A atividade consistiu na criação de um reel/vídeo curto (30 a 60 segundos) baseado na obra Primeiro de abril: narrativas da cadeia, de Salim Miguel. Cada estudante escolheu um local de Florianópolis citado no livro e produziu um vídeo mostrando o espaço atual, relacionando-o ao contexto histórico e narrativo da obra."
+              LinkAtv="https://www.youtube.com/watch?v=SI3xNomfDaQ?si=NMP7IpT0WTsibVgo"
+            />
+            <ContainerAtvFt
+              ImgAtv={ImgMatue}
+              TituloATv="Carta de intenção"
+              Ch="Competências e Habilidades Desenvolvidas: H4 - H16 - H15 "
+              Objetivo="A atividade consistiu na produção de uma Carta de Intenção solicitando ingresso em uma instituição de ensino superior. O objetivo foi desenvolver a escrita formal e a capacidade de argumentar de maneira clara e objetiva sobre a escolha de um curso e de uma universidade."
+              LinkAtv="https://docs.google.com/document/d/1NhUpUb3NXcf0qB6jUzd8zha40vRlnL_AQjXg7317PPs/edit?usp=sharing"
+            />
     </Container>
   )
 }

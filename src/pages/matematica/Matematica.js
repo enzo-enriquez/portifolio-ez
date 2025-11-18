@@ -5,6 +5,7 @@ import ImgBacara from "../../imagens/matemática/bacra.png"
 import Imgdados from "../../imagens/matemática/dados.png"
 import ImgPasse from "../../imagens/matemática/passe.png"
 import ImgBanca from "../../imagens/matemática/quebrandoabanca.png"
+import ImgBolo from "../../imagens/matemática/Bolo.png"
 
 
 function Matematica() {
@@ -49,6 +50,17 @@ function Matematica() {
                 AssuntoAtv=" Avaliação de matemática"
                 Ch="C4 e C5 - H27 - H28 - H29 - H31 e H32"
                 Objetivo="Fazer uma prova objetiva sobre os conceitos da matemática"
+                />
+        </Row>
+        <h1 style={{ margin: "20px 0", textAlign: "center" }}>2º Trimestre</h1>
+            <Row>
+            <ContainerAtvFt
+                ImgAtv={ImgBolo}
+                TituloATv=" Bolo de caneca"
+                AssuntoAtv="Proporção"
+                Ch="C5 - H33"
+                Objetivo="A atividade consistiu em aplicar o conceito matemático de proporção por meio da adaptação de uma receita de bolo de caneca. Em grupo, pesquisamos a receita original para uma porção e recalculamos as quantidades necessárias para o número de integrantes. Depois, preparamos o bolo usando micro-ondas, registramos o processo e avaliamos se as proporções estavam corretas. Por fim, apresentamos os resultados com tabela de ingredientes, cálculos e reflexão sobre o que aprendemos."
+                LinkAtv="https://www.canva.com/design/DAG4BvQZDKU/pkHCvE4GyxN-8cF74qnIMQ/view?embed"
                 />
         </Row>
     </Container>

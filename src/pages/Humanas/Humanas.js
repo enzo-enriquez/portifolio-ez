@@ -6,6 +6,9 @@ import ImgJornal from "../../imagens/humanas/Jornal.png"
 import ImgQuiz from "../../imagens/humanas/Quiz.png"
 import ImgTotal from "../../imagens/humanas/Totalitarismo.png"
 import ImgUnaids from "../../imagens/humanas/unaids.png"
+import ImgGamma from "../../imagens/humanas/gama.png"
+import ImgAurora from "../../imagens/humanas/aurora.png"
+import ImgCien from "../../imagens/humanas/dossiecientista.png"
 
 function Humanas() {
   return (
@@ -61,6 +64,29 @@ function Humanas() {
               ComentárioPessoal="O grupo Compreendeu e analisou como cenas específicas retratam as características dos regimes totalitários e como os protagonistas resistem à opressão, valorizando a memória e a liberdade."
               LinkAtv="https://www.canva.com/design/DAGsnAiuJcA/bMElV1OhWc69e3kODM-R3w/view?utm_content=DAGsnAiuJcA&utm_campaign=designshare&utm_medium=link&utm_source=viewer"
             />
+            <h1 style={{ margin: "20px 0", textAlign: "center" }}>3º Trimestre</h1>
+              <ContainerAtvFt
+              ImgAtv={ImgCien}
+              TituloATv=" Dossiê da cientista"
+              AssuntoAtv="Após a discussão sobre o Massacre de Manguinhos, a atividade consistiu em escolher um dos cientistas perseguidos e produzir um dossiê sobre sua vida e carreira."
+              Ch="Competências e Habilidades Desenvolvidas:  C5 e C6 - H30, H36, H39, H40 "
+              LinkAtv="https://docs.google.com/document/d/18blbz-eN6VWL-0OaBxwZ-InUsSrlWNZbfQu55dDKZ1c/edit?usp=sharing"
+            />
+              <ContainerAtvFt
+              ImgAtv={ImgAurora}
+              TituloATv=" Aurora do Sul"
+              AssuntoAtv="A atividade consistiu em criar um projeto fictício para uma nova capital brasileira chamada Aurora do Sul, planejada para representar modernidade, sustentabilidade e integração regional."
+              Ch="Competências e Habilidades Desenvolvidas:   C6 - H39 H40 "
+              LinkAtv="https://docs.google.com/document/d/1c2RCYlsnNvMEH8GKRvZKJtR5hNt7Cbn56YKUywrmHM0/edit?usp=sharing"
+            />
+              <ContainerAtvFt
+              ImgAtv={ImgGamma}
+              TituloATv=" :A Engrenagem da Intervenção: Desvendando os Mecanismos dos EUA no Golpe de 1964"
+              AssuntoAtv="  A turma foi dividida em grupos para pesquisar como os Estados Unidos influenciaram o golpe de 1964 no Brasil. Cada grupo estudou um tema específico e produziu um infográfico com imagens, além de uma apresentação oral explicando os principais mecanismos usados pelos EUA, como ações econômicas, midiáticas, militares e de inteligência."
+              Ch="Competências e Habilidades Desenvolvidas:   C6 - H39 H40 "
+              LinkAtv="https://operacao-brother-sam-o-a-7zto44w.gamma.site/"
+            />
+            
         </Row>
 
 
