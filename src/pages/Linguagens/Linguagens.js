@@ -8,7 +8,10 @@ import ImgBola from "../../imagens/linguagens/outroLadoBola.png"
 import ImgPadlet from "../../imagens/linguagens/Padlet.png"
 import ImgPai from "../../imagens/linguagens/Pai.png"
 import ImgRedacao from "../../imagens/linguagens/redacao.png"
+import ImgRedacao4 from "../../imagens/linguagens/redacao4.png"
+import Imgyoutube from "../../imagens/linguagens/youtube.png"
 import ImgVozes from "../../imagens/linguagens/Vozescriativas.png"
+import ImgCarta from "../../imagens/linguagens/Carta.png"
 
 
 function Linguagens() {
@@ -117,21 +120,22 @@ function Linguagens() {
         <h1 style={{ margin: "20px 0", textAlign: "center" }}>2º Trimestre</h1>
                 <Row>
             <ContainerAtvFt
-              ImgAtv={ImgMatue}
+              ImgAtv={ImgRedacao4}
               TituloATv="Redação Enem"
               Ch="Competências e Habilidades Desenvolvidas: H6 - H8 "
               Objetivo="Objetivo:A atividade consistiu em produzir uma redação sobre o tema “Desafios para combater o racismo ambiental no Brasil”, como preparação para o ENEM. O objetivo foi desenvolver argumentação crítica sobre as desigualdades ambientais que afetam principalmente comunidades vulneráveis, analisando causas, consequências e possíveis soluções. "
+              LinkAtv="https://portal.redacaonota1000.com.br/redacao/laudo/app/10806175"
             />
         </Row>
             <ContainerAtvFt
-              ImgAtv={ImgMatue}
+              ImgAtv={Imgyoutube}
               TituloATv="Reel Literário: Primeiro de abril: narrativas da cadeia"
               Ch="Competências e Habilidades Desenvolvidas: H4 - H16 - H15 "
               Objetivo="Objetivo:A atividade consistiu na criação de um reel/vídeo curto (30 a 60 segundos) baseado na obra Primeiro de abril: narrativas da cadeia, de Salim Miguel. Cada estudante escolheu um local de Florianópolis citado no livro e produziu um vídeo mostrando o espaço atual, relacionando-o ao contexto histórico e narrativo da obra."
               LinkAtv="https://www.youtube.com/watch?v=SI3xNomfDaQ?si=NMP7IpT0WTsibVgo"
             />
             <ContainerAtvFt
-              ImgAtv={ImgMatue}
+              ImgAtv={ImgCarta}
               TituloATv="Carta de intenção"
               Ch="Competências e Habilidades Desenvolvidas: H4 - H16 - H15 "
               Objetivo="A atividade consistiu na produção de uma Carta de Intenção solicitando ingresso em uma instituição de ensino superior. O objetivo foi desenvolver a escrita formal e a capacidade de argumentar de maneira clara e objetiva sobre a escolha de um curso e de uma universidade."

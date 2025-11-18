@@ -9,7 +9,6 @@ import Matematica from "./pages/matematica/Matematica.js";
 import Linguagens from "./pages/Linguagens/Linguagens.js";
 import Humanas from "./pages/Humanas/Humanas.js";
 import BancoDados from "./pages/BancoDados/BancoDados.js";
-import DesenvolvimentoSitemas from "./pages/DesenvolvimentoSistemas/DesenvolvimentoSitemas.js";
 import ModelagemSistemas from "./pages/Modelagem/ModelagemSistemas.js";
 
 
@@ -24,7 +23,6 @@ function App() {
           <Route path="/linguagens" element={<Linguagens />} />
           <Route path="/humanas" element={<Humanas />} />
           <Route path="/Banco-dados" element={<BancoDados/>} />
-          <Route path="/Desenvolvimento-Sistemas" element={< DesenvolvimentoSitemas/>} />
           <Route path="/modelagem-sistemas" element={< ModelagemSistemas/>} />
         </Routes>
       </Router>

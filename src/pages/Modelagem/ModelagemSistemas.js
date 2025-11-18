@@ -39,6 +39,13 @@ function ModelagemSistemas() {
               Objetivo='Objetivo: Criar um Protótipo do app e do site da SA "Situação de aprendizagem"'
               LinkAtv="https://www.figma.com/design/yFJD9Am0RZdEwt6a92zC29/AquaSense-App?node-id=0-1&p=f&t=5tXwA3ZqzWg8XVCg-0"
             />
+            <ContainerAtvFt
+              ImgAtv={ImgFigma}
+              TituloATv="Barbearia"
+              Ch="Competências e Habilidades Desenvolvidas: H1, H2, H3, H4, H6, H7"
+              Objetivo='A atividade consiste em escolher um projeto, documentá-lo, desenvolver o sistema completo (frontend, backend e banco), e depois adicionar erros de propósito. O código é publicado no GitHub em duas branches: uma funcional e outra com erros. Outro grupo irá analisar, corrigir e documentar esses erros. No final, cada equipe entrega o repositório original, o repositório corrigido e a documentação com as correções realizadas.'
+              LinkAtv="https://docs.google.com/document/d/1Cws8PDy7sKmMUrhg8zQyqshdGXkwoR4AmtmwoVcRTrU/edit?usp=sharing"
+            />
         </Row>
     </Container>
   )
