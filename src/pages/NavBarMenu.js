@@ -17,9 +17,8 @@ function NavBarMenu() {
           <Nav className="me-auto">
              <Nav.Link className="menu-link" as={Link} to='/'>Home</Nav.Link>
              <NavDropdown title="Técnico" id="basic-nav-dropdown">
-              <NavDropdown.Item className="menu-link" as={Link} to='/modelagem-sistemas'>Modelagem de Sistemas</NavDropdown.Item>
+              <NavDropdown.Item className="menu-link" as={Link} to='/modelagem-sistemas'>Desenvolvimento de sistemas</NavDropdown.Item>
               <NavDropdown.Item className="menu-link" as={Link} to='/Banco-dados'>Banco de dados</NavDropdown.Item>
-              <NavDropdown.Item className="menu-link" as={Link} to='/Desenvolvimento-sistemas'>Desenvolvimento de sistemas</NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="Matérias" id="basic-nav-dropdown">
               <NavDropdown.Item className="menu-link" as={Link} to='/matematica'>Matemática</NavDropdown.Item>
